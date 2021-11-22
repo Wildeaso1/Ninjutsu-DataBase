@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Ninjutsu-Database/1.0.0": {
+        "runtime": {
+          "Ninjutsu-Database.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Ninjutsu-Database/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

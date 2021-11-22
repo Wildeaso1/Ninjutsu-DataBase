@@ -1,0 +1,13 @@
+C:\Users\wilde\Documents\Visual Studio 2019\Projects\Ninjutsu-Database\Ninjutsu-Database\bin\Debug\netcoreapp3.1\Ninjutsu-Database.exe
+C:\Users\wilde\Documents\Visual Studio 2019\Projects\Ninjutsu-Database\Ninjutsu-Database\bin\Debug\netcoreapp3.1\Ninjutsu-Database.deps.json
+C:\Users\wilde\Documents\Visual Studio 2019\Projects\Ninjutsu-Database\Ninjutsu-Database\bin\Debug\netcoreapp3.1\Ninjutsu-Database.runtimeconfig.json
+C:\Users\wilde\Documents\Visual Studio 2019\Projects\Ninjutsu-Database\Ninjutsu-Database\bin\Debug\netcoreapp3.1\Ninjutsu-Database.runtimeconfig.dev.json
+C:\Users\wilde\Documents\Visual Studio 2019\Projects\Ninjutsu-Database\Ninjutsu-Database\bin\Debug\netcoreapp3.1\Ninjutsu-Database.dll
+C:\Users\wilde\Documents\Visual Studio 2019\Projects\Ninjutsu-Database\Ninjutsu-Database\bin\Debug\netcoreapp3.1\Ninjutsu-Database.pdb
+C:\Users\wilde\Documents\Visual Studio 2019\Projects\Ninjutsu-Database\Ninjutsu-Database\obj\Debug\netcoreapp3.1\Ninjutsu-Database.csprojAssemblyReference.cache
+C:\Users\wilde\Documents\Visual Studio 2019\Projects\Ninjutsu-Database\Ninjutsu-Database\obj\Debug\netcoreapp3.1\Ninjutsu-Database.AssemblyInfoInputs.cache
+C:\Users\wilde\Documents\Visual Studio 2019\Projects\Ninjutsu-Database\Ninjutsu-Database\obj\Debug\netcoreapp3.1\Ninjutsu-Database.AssemblyInfo.cs
+C:\Users\wilde\Documents\Visual Studio 2019\Projects\Ninjutsu-Database\Ninjutsu-Database\obj\Debug\netcoreapp3.1\Ninjutsu-Database.csproj.CoreCompileInputs.cache
+C:\Users\wilde\Documents\Visual Studio 2019\Projects\Ninjutsu-Database\Ninjutsu-Database\obj\Debug\netcoreapp3.1\Ninjutsu-Database.dll
+C:\Users\wilde\Documents\Visual Studio 2019\Projects\Ninjutsu-Database\Ninjutsu-Database\obj\Debug\netcoreapp3.1\Ninjutsu-Database.pdb
+C:\Users\wilde\Documents\Visual Studio 2019\Projects\Ninjutsu-Database\Ninjutsu-Database\obj\Debug\netcoreapp3.1\Ninjutsu-Database.genruntimeconfig.cache
