@@ -8,20 +8,21 @@ namespace Ninjutsu_Database
 		{
 			Database database = new Database();
 
-			database.AddNinjutsu(new Ninjutsu("Fire Release: Great Fireball Technique", "Flame Style"));
-			database.AddNinjutsu(new Ninjutsu("Fire Release: Great Fire Annihilation", "Flame Style"));
-			database.AddNinjutsu(new Ninjutsu("Shadow Clone Technique", "Supplementary"));
-			database.AddNinjutsu(new Ninjutsu("Flying Thunder God Technique", "Supplementary"));
-			database.AddNinjutsu(new Ninjutsu("Eight Trigrams Thirty-Two Palms", "Kekkei-Genkei Byuagugan"));
-			database.AddNinjutsu(new Ninjutsu("Eight Trigrams Sealing Style", "Sealing Techniques"));
-			database.AddNinjutsu(new Ninjutsu("Rasengan", "Ninjutsu"));
+			Ninjutsu FireballJutsu = new GreatFireBallJutsu("Great Fire Ball Jutsu", "\nThe user kneads chakra in their body and turns it into fire, which they then expel from their" +
+				" mouth; the more chakra they use, the more flames that are produced.\n");
 
-			foreach (Ninjutsu ninjustu in database.GetNinjutsu())
+			Ninjutsu flyingRaijin = new FlyingRaijin("Flying Thunder God Technique", "\nBy entering a dimensional void, users can instantly teleport to a technique " +
+				"formula's location whenever they please, regardless of distance.\n");
+
+			database.AddNinjutsu(FireballJutsu);
+			database.AddNinjutsu(flyingRaijin);
+
+			foreach (Ninjutsu ninjutsu in database.GetNinjutsu())
 			{
-				Console.WriteLine(ninjustu.NinjutsuName + " | " + ninjustu.NinjustuType);
+				Console.WriteLine(ninjutsu.NinjutsuName + ninjutsu.NinjutsuDescription);
 			}
 
-
+			database.Use(1);
 		}
 	}
 }

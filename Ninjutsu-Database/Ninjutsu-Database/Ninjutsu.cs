@@ -4,15 +4,17 @@ using System.Text;
 
 namespace Ninjutsu_Database
 {
-	class Ninjutsu
+	public abstract class Ninjutsu
 	{
 		public string NinjutsuName { get; private set; }
-		public string NinjustuType { get; private set; }
-
-		public Ninjutsu(string name, string type)
+		public string NinjutsuDescription { get; private set; }
+		public Ninjutsu(string ninjutsuName, string description)
 		{
-			NinjutsuName = name;
-			NinjustuType = type;
+			this.NinjutsuName = ninjutsuName;
+			this.NinjutsuDescription = description;
+
 		}
+
+		public abstract void UseNinjutsu();
 	}
 }

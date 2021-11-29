@@ -22,5 +22,10 @@ namespace Ninjutsu_Database
 		{
 			return _Ninjustu;
 		}
+
+		public void Use(int Index)
+		{
+			_Ninjustu[Index].UseNinjutsu();
+		}
 	}
 }
