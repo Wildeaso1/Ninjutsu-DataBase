@@ -6,26 +6,31 @@ namespace Ninjutsu_Database
 {
 	class Database
 	{
-		private List<Ninjutsu> _Ninjustu;
-
+		public List<Ninjutsu> _Ninjutsu { get; private set; }
 		public Database()
 		{
-			_Ninjustu = new List<Ninjutsu>();
+			_Ninjutsu = new List<Ninjutsu>();
 		}
 
 		public void AddNinjutsu(Ninjutsu ninjutsu)
 		{
-			_Ninjustu.Add(ninjutsu);
+			_Ninjutsu.Add(ninjutsu);
 		}
 
 		public List<Ninjutsu> GetNinjutsu()
 		{
-			return _Ninjustu;
+			return _Ninjutsu;
+			
 		}
 
+		public int GetNinjutsuCount()
+		{
+			return _Ninjutsu.Count;
+		}
+		
 		public void Use(int Index)
 		{
-			_Ninjustu[Index].UseNinjutsu();
+			_Ninjutsu[Index -1].UseNinjutsu();
 		}
 	}
 }
