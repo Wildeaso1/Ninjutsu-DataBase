@@ -53,10 +53,20 @@ namespace Ninjutsu_Database
 					}
 
 				}
-				else
+				if (Int32.TryParse(Input, out Jutsu) && Jutsu <= NinjutsuCount)
 				{
 					database.Use(Jutsu);
 					Console.WriteLine("\n");
+					foreach (Ninjutsu ninjutsu in database.GetNinjutsu())
+					{
+						Console.WriteLine($"Jutsu: {Index}  {ninjutsu.NinjutsuName}\n");
+						Index++;
+					}
+				}
+
+				if (Jutsu > NinjutsuCount)
+				{
+					Console.WriteLine("You can't use nothing!\n");
 					foreach (Ninjutsu ninjutsu in database.GetNinjutsu())
 					{
 						Console.WriteLine($"Jutsu: {Index}  {ninjutsu.NinjutsuName}\n");
