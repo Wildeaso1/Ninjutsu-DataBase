@@ -17,16 +17,9 @@ namespace Ninjutsu_Database
 			_Ninjutsu.Add(ninjutsu);
 		}
 
-		public List<Ninjutsu> GetNinjutsu()
-		{
-			return _Ninjutsu;
-			
-		}
+		public List<Ninjutsu> GetNinjutsu() => _Ninjutsu;
 
-		public int GetNinjutsuCount()
-		{
-			return _Ninjutsu.Count;
-		}
+		public int GetNinjutsuCount() => _Ninjutsu.Count;
 		
 		public void Use(int Index)
 		{
